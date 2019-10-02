@@ -38,7 +38,7 @@ body {
   display: none;
 }
 
-h1, h2, h3, .jumbotron p, nav a, nav li {
+h1, h2, h3, a, .jumbotron p, nav li {
   background: -webkit-linear-gradient(#ee0979, #ff6a00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
