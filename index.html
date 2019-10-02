@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
+
+<!--Navigation-->
+<nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+		<!--Left Section-->
+      <div class="navbar-header">
+         <!-- Collapse-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Josh Caulfield</a>
+      </div>
+      <!--Right Section-->
+      <div class="collapse navbar-collapse navbar-collapse-right" id="portfolio-collapse-menu">
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </div>
+	</div>
+</nav>
+
+
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <h1><strong>FullStack JS Dev</strong></h1>
+  <p>I use Node, React, Express, Mongo to build my projects.</p>
+</div>
+
+<!-- Content Area -->
+<div class="container">
+  
+  <!-- About -->
+  <section class="about" id="about">
+    <h1><strong>About</strong></h1>
+    <hr>
+    <div class="row">
+     <div class="col-xs-12">
+       <h4>Fullstack JavaScript developer with experience building dynamic and scalable web applications from the ground up. I am currently working on a fullstack <i class="fa fa-free-code-camp" aria-hidden="true"></i>freeCodeCamp certification. You can find more examples of my work on my GitHub <i class="fa fa-github" aria-hidden="true"></i><a class="https://github.com/coolfield" target='_blank'>coolfield</a>.</h4>
+     </div>
+      <div class="col-xs-2">
+       
+     </div>
+   </div>
+  </section>
+  
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h1><strong>Portfolio</strong></h1>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="portfolio-img" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=b5d5ba4a41801dd563a2bb2e4d4cc56a" alt"Placeholder Project">
+        <h4>Placeholder Project #1</h4>
+      </div>
+      <div class="col-sm-6">
+        <img class="portfolio-img" src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=356407ef05a295cb49a302360f91fbde" alt"Tribute Project">
+        <h4>Placeholder Project #2</h4>
+      </div>
+    </div> <!-- /Row -->
+    <div class="row portfolio">
+      <div class="col-sm-6">
+        <img class="portfolio-img" src="https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=5f8c9e11dbac64af58e2f4ddcbc09ae0" alt"Placeholder Project">
+        <h4>Placeholder Project #3</h4>
+      </div>
+      <div class="col-sm-6">
+        <img class="portfolio-img" src="https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=e00ba67715716e9803ac0d55a52970ca" alt"Tribute Project">
+        <h4>Placeholder Project #4</h4>
+      </div>
+    </div> <!-- /Row -->
+  </section>
+  <section class="contact" id="contact">
+    <h1><strong>Contact</strong></h1>
+   <hr>
+    <h4 id="contact-text">Reach me on <i class="fa fa-github" aria-hidden="true"></i><a class="https://github.com/coolfield" target='_blank'>GitHub</a>, <i class="fa fa-twitter" aria-hidden="true"></i><a class="https://twitter.com/freecodecamp" target='_blank'>Twitter</a> and on <i class="fa fa-free-code-camp" aria-hidden="true"></i><a class="https://freecodecapm.com/coolfield" target='_blank'>freeCodeCamp</a>. You can also reach me directly by sending a message to <a href="mailto:joshcaulfield98@gmail.com">joshcaulfield98@gmail.com</a></h4>
+    <form class="contact-form">
+      <div class="form-group input-group-lg">
+                <input type="text" class="form-control" id="formstyle" placeholder="Name">
+              </div>
+              <div class="form-group input-group-lg">
+                <input type="email" class="form-control" id="formstyle"  placeholder="Email address">
+              </div>
+              <div class="form-group input-group-lg">
+                <textarea class="form-control" id="formstyle"  placeholder="Message"></textarea>
+              </div>              
+              <button type="submit" class="btn btn-group-lg btn-default btn-block" id="submitbtn"><strong>Submit</strong></button>
+    </form>
+  </section>
+</div>
+
+<!-- HTML 5 Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <h3>&copy; 2017 Josh Caulfield</h3>
+  </div>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
